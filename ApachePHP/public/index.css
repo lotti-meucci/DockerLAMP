@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+table {
+	margin-inline: auto;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px;
+	border: 1px solid black;
+}
+
+hr {
+	margin-block: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, th, label, button {
+	color: dodgerblue;
+}
+
+label, button {
+	font-weight: bold;
+}
+
+.control {
+	margin-bottom: 8px;
+}

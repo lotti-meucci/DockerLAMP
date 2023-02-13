@@ -1,0 +1,15 @@
+version: "2"
+services:
+  web:
+    build: ./ApachePHP
+    ports:
+      - 8080:80
+    volumes:
+      - './ApachePHP/public:/var/www/html'
+  db:
+    build: ./MySQL
+    ports:
+      - 3306:3306
+    volumes:
+      - './MySQL/binaries:/var/lib/mysql'
+      - './MySQL/scripts:/scripts'
